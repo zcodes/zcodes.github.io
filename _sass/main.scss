@@ -1,0 +1,17 @@
+.post-list {
+
+    li {
+        margin-bottom: 4px;
+
+        .post-link {
+            display: inline-block;
+            @include relative-font-size(1);
+        }
+
+        .post-meta {
+            display: inline-block;
+            width: 100px;
+        }
+    }
+
+}
