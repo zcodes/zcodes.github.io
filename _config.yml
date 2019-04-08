@@ -16,9 +16,9 @@
 title: zcodes.net
 email: zcodes@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Nothing to say ...
+    Hello, World !
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zcodes.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: zcodes
 permalink: /:year/:month/:day/:title.html
