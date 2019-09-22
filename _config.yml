@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: zcodes.net
+title: ZCODES
 email: zcodes@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
     Hello, World !
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zcodes.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username:
 github_username: zcodes
 permalink: /:year/:month/:day/:title.html
 timezone: Asia/Shanghai
