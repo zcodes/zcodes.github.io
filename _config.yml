@@ -13,18 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: zcodes.net
+title: 有时・无题
 email: zcodes@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Hello, World !
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zcodes.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username:
 github_username: zcodes
 permalink: /:year/:month/:day/:title.html
 timezone: Asia/Shanghai
 minima:
-  date_format: "%Y-%m-%d"
+    date_format: "%Y年%m月%d日 %H:%M"
 
 # Build settings
 markdown: kramdown
@@ -44,3 +43,4 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 baidu_analytics: f1bbdb4ac4979d0a1bd596c66104a0e2
+show_excerpts: false
