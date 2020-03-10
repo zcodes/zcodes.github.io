@@ -37,6 +37,8 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - serve.*
+  - new_post.*
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
